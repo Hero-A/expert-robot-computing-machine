@@ -1,23 +1,37 @@
 body{
-    background-color: aquamarine;
     text-align: center;
-    font-weight: bold;
-    font-size: 18px;
+    background-size:cover ;
+    background-color: rgb(255, 0, 0);
+    font-family: monospace;
 }
 
 h1{
-    font-weight: bolder;
+    color: rgb(0, 247, 255);
+    background-color: rgb(26, 91, 211);
+    line-height: 70px;
     font-family: cursive;
-    font-size: 49px;
-    color: rgb(255, 94, 0);
+    font-size: 120px;
 }
 
-#score{
-    margin-left: 400px;
-    color: grey;
+#c{
+    float:right;
+    margin-top: 19px;
 }
 
-#timer{
-    margin-right: 400px;
-    color: grey;
+canvas{
+    border: 10px ridge teal;
+    border-radius: 14px;
+    animation-name: example;
+    animation-duration: 10s;
+    margin-top: 135px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 3px 3px 40px rgb(0, 179, 255)}
+    to{box-shadow: 4px 3px 40px rgb(92, 65, 225)};
+}
+
+p{
+    font-size: 20;
 }
